@@ -121,7 +121,7 @@ public class Player : MonoBehaviour
         // You might need the mouseY, mouseX, vertical, and horizontal variables
         //      that are above this step :)
         bool isWalking = Mathf.Abs(vertical) > 0.1f || Mathf.Abs(horizontal) > 0.1f;
-        _animator.SetBool("walking", isWalking);
+        _animator.SetBool("Walking", isWalking);
 
         // STEP 8 -------------------------------------------------------------
     }
